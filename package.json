@@ -1,0 +1,31 @@
+{
+  "name": "sshapw",
+  "version": "0.0.1",
+  "author": {
+    "name": "Tim Kuijsten",
+    "email": "tim@netsend.nl",
+    "url": "https://github.com/timkuijsten"
+  },
+  "license": "ISC",
+  "description": "Echo a salted sha1 hash that can be used for dovecot and nginx",
+  "keywords": [
+    "ssha",
+    "salted",
+    "sha1",
+    "dovecotpw",
+    "nginx"
+  ],
+  "main": "index.js",
+  "bugs": "https://github.com/timkuijsten/node-sshapw/issues",
+  "dependencies": {
+    "commander": "2.8.x",
+    "read": "1.0.x",
+    "ssha": "1.0.x"
+  },
+  "preferGlobal": true,
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timkuijsten/node-sshapw.git"
+  }
+}
