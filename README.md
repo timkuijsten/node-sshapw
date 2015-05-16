@@ -13,7 +13,15 @@ Create a password with a random salt.
 
 ## Installation
 
+If you have npm installed on your system:
+
     $ sudo npm install -g sshapw
+
+If you don't have npm a simple shell script is included:
+
+    https://github.com/timkuijsten/node-sshapw/blob/master/sshapw.sh
+
+This script works out of the box with OpenBSD 5.7, OS X 10.10 and Ubuntu 14.04.
 
 ## Todo
 * create an option to verify a given hash
