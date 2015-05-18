@@ -1,6 +1,11 @@
 # sshapw
 
-Echo a salted sha1 hash that can be used for dovecot and nginx.
+Echo a salted sha1 hash that can be used for Dovecot and Nginx.
+
+## Note
+
+It is advised to use SHA512-CRYPT which is supported since glibc 2.7. If you are
+on Ubuntu or Debian you can install `whois` that ships the `mkpasswd(1)` utility.
 
 ## Example
 
