@@ -1,3 +1,10 @@
+2015.05.18, Version 0.0.4
+
+* update README
+* sha512crypt.sh: add new wrapper for mkpasswd
+* sshapw.sh: use /dev/random instead of /dev/urandom
+
+
 2015.05.16, Version 0.0.3
 
 * republish to npmjs.com
