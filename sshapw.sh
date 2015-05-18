@@ -36,7 +36,7 @@ if [ "$?" -ne "0" ]; then
 fi
 
 # create a random 12 byte salt
-dd bs=$((12)) count=1 if=/dev/urandom 2>/dev/null > "$tmpfile3"
+dd bs=$((12)) count=1 if=/dev/random 2>/dev/null > "$tmpfile3"
 if [ "$?" -ne "0" ]; then
   echo 'could not extract random bytes' 1>&2;
   rm "$tmpfile1" "$tmpfile2" "$tmpfile3"
